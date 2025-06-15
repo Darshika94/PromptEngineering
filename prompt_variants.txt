@@ -1,0 +1,60 @@
+# Prompt Variants Used
+
+| Prompt Type        | Description                                                                                      |
+|--------------------|--------------------------------------------------------------------------------------------------|
+| Zero-shot          | Directly asks the model to summarize without any example. Tests the LLM's raw understanding.     |
+| Few-shot           | Provides a few examples of review → summary before asking the model to summarize a new one.      |
+| Chain-of-Thought   | Breaks down reasoning step by step before generating the summary.                                |
+| Tree-of-Thoughts   | Produces two summary options from different perspectives and explains the best one.              |
+| ReAct              | Mimics human-like thinking + action in one flow (Think: What’s the sentiment? → Act: Summarize). |
+
+
+
+
+# --- zero-shot ---
+Summarize this product review into one polite sentence:
+"{{ review }}"
+===
+
+# --- few-shot ---
+Here are examples of product review summaries:
+Review: "The sound quality is terrible and it broke after a week."
+Summary: "The user reported poor sound quality and a broken device."
+Review: "Great fit and comfort, with amazing bass response."
+Summary: "The reviewer praised the headphones for comfort and bass."
+Now summarize this review:
+"{{ review }}"
+Summary:
+===
+
+# --- chain-of-thought ---
+Here is a product review:
+"{{ review }}"
+
+Step 1: Identify whether the feedback is positive, negative, or neutral.
+Step 2: Find the main point of praise or complaint.
+Step 3: Write a professional summary in one line.
+
+Answer:
+===
+
+# --- tree-of-thoughts ---
+You're analyzing a product review. First, write two different summaries based on different viewpoints. Then choose the best one and explain why.
+
+Review: "{{ review }}"
+
+Option 1:
+Option 2:
+Chosen Summary:
+Reason:
+===
+
+# --- ReAct ---
+You are a helpful AI reviewer. Your task is to:
+- Think through the user feedback
+- Generate a short, polite summary
+
+Review: "{{ review }}"
+
+Think: What is the core sentiment and message?
+Act: Write a summary in 1–2 lines.

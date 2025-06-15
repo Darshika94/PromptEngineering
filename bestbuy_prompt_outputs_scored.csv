@@ -1,0 +1,222 @@
+review,prompt_type,prompt,output,sentiment,sentiment_score,word_count,accuracy_score,tone_score,task_success,total_score
+Great Head phones.  I use these when doing Yard work.,zero-shot,"Summarize this product review into one polite sentence:
+""Great Head phones.  I use these when doing Yard work.""",These headphones are great for use during yard work.,positive,0.8,9,2,2,2,6
+Great Head phones.  I use these when doing Yard work.,few-shot,"
+Here are examples of product review summaries:
+Review: ""The sound quality is terrible and it broke after a week.""
+Summary: ""The user reported poor sound quality and a broken device.""
+Review: ""Great fit and comfort, with amazing bass response.""
+Summary: ""The reviewer praised the headphones for comfort and bass.""
+Now summarize this review:
+""Great Head phones.  I use these when doing Yard work.""
+Summary:","""The reviewer found the headphones great for yard work.""",positive,0.8,9,2,2,2,6
+Great Head phones.  I use these when doing Yard work.,chain-of-thought,"
+Here is a product review:
+""Great Head phones.  I use these when doing Yard work.""
+
+Step 1: Identify whether the feedback is positive, negative, or neutral.
+Step 2: Find the main point of praise or complaint.
+Step 3: Write a professional summary in one line.
+
+Answer:","Positive feedback; main point of praise is the headphones being great for yard work. 
+
+Summary: The headphones are great for yard work, according to the review.",positive,0.498,26,2,1,1,4
+Great Head phones.  I use these when doing Yard work.,tree-of-thoughts,"
+You're analyzing a product review. First, write two different summaries based on different viewpoints. Then choose the best one and explain why.
+
+Review: ""Great Head phones.  I use these when doing Yard work.""
+
+Option 1:
+Option 2:
+Chosen Summary:
+Reason:","Option 1: The headphones are great for outdoor use during yard work.
+
+Option 2: The headphones are perfect for listening to music while doing chores outside.
+
+Chosen Summary: The headphones are great for outdoor use during yard work.
+
+Reason: This summary effectively captures the main point of the review, which is that the headphones are specifically used for yard work. It is more specific and directly relates to the context in which the headphones are being used.",positive,0.441,77,2,2,0,4
+Great Head phones.  I use these when doing Yard work.,ReAct,"
+You are a helpful AI reviewer. Your task is to:
+- Think through the user feedback
+- Generate a short, polite summary
+
+Review: ""Great Head phones.  I use these when doing Yard work.""
+
+Think: What is the core sentiment and message?
+Act: Write a summary in 1–2 lines.",Summary: The user finds the headphones great for use during yard work.,positive,0.8,12,2,2,2,6
+This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too,zero-shot,"Summarize this product review into one polite sentence:
+""This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too""","The wireless headphones are not only comfortable and provide clear sound, but also have a beautiful design that my friends admired, making them perfect for long-term use.",positive,0.458,27,2,2,2,6
+This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too,few-shot,"
+Here are examples of product review summaries:
+Review: ""The sound quality is terrible and it broke after a week.""
+Summary: ""The user reported poor sound quality and a broken device.""
+Review: ""Great fit and comfort, with amazing bass response.""
+Summary: ""The reviewer praised the headphones for comfort and bass.""
+Now summarize this review:
+""This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too""
+Summary:","""The reviewer found the wireless headphones comfortable with clear sound quality and praised their beauty and durability.""",positive,0.3,17,2,2,2,6
+This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too,chain-of-thought,"
+Here is a product review:
+""This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too""
+
+Step 1: Identify whether the feedback is positive, negative, or neutral.
+Step 2: Find the main point of praise or complaint.
+Step 3: Write a professional summary in one line.
+
+Answer:","Step 1: Positive
+Step 2: The main point of praise is the comfort, clear sound quality, and attractive design of the wireless headphones.
+Step 3: These wireless headphones are praised for their comfort, clear sound quality, and attractive design, making them a great choice for long usage.",positive,0.374,47,2,2,1,5
+This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too,tree-of-thoughts,"
+You're analyzing a product review. First, write two different summaries based on different viewpoints. Then choose the best one and explain why.
+
+Review: ""This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too""
+
+Option 1:
+Option 2:
+Chosen Summary:
+Reason:","Option 1: The wireless headphones are comfortable, have clear sound quality, and are aesthetically pleasing. The reviewer also notes that they have a long usage time.
+
+Option 2: The reviewer praises the wireless headphones for their comfort, clear sound quality, and long usage time. They also mention that their friends admired the headphones for their beauty.
+
+Chosen Summary: Option 1
+Reason: Option 1 provides a more comprehensive summary of the review, highlighting the comfort, sound quality, aesthetics, and long usage time of the headphones. It gives a more well-rounded view of the reviewer's positive experience with the product.",positive,0.24,98,2,2,0,4
+This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too,ReAct,"
+You are a helpful AI reviewer. Your task is to:
+- Think through the user feedback
+- Generate a short, polite summary
+
+Review: ""This wireless headphones are comfortable and the sound comes through clearly! My friends admired them for their beauty #pretty long usage too""
+
+Think: What is the core sentiment and message?
+Act: Write a summary in 1–2 lines.","Summary: The user is pleased with the comfort, clear sound, and aesthetics of the wireless headphones, noting that they are suitable for long periods of use and have received admiration from friends.",positive,0.3,32,2,2,2,6
+My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad,zero-shot,"Summarize this product review into one polite sentence:
+""My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad""",These headphones are loved by my son for allowing him to listen to his music without disturbing his parents.,neutral,0.1,19,2,2,2,6
+My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad,few-shot,"
+Here are examples of product review summaries:
+Review: ""The sound quality is terrible and it broke after a week.""
+Summary: ""The user reported poor sound quality and a broken device.""
+Review: ""Great fit and comfort, with amazing bass response.""
+Summary: ""The reviewer praised the headphones for comfort and bass.""
+Now summarize this review:
+""My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad""
+Summary:","""The headphones are loved by the reviewer's son for everyday use and allow him to listen to music without disturbing others.""",neutral,-0.0,21,2,2,2,6
+My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad,chain-of-thought,"
+Here is a product review:
+""My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad""
+
+Step 1: Identify whether the feedback is positive, negative, or neutral.
+Step 2: Find the main point of praise or complaint.
+Step 3: Write a professional summary in one line.
+
+Answer:","Step 1: Positive
+Step 2: Main point of praise - Son loves headphones and they allow him to listen without making noise
+Step 3: These headphones are a hit with my son, allowing him to listen without disturbing others.",neutral,-0.035,39,2,2,2,6
+My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad,tree-of-thoughts,"
+You're analyzing a product review. First, write two different summaries based on different viewpoints. Then choose the best one and explain why.
+
+Review: ""My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad""
+
+Option 1:
+Option 2:
+Chosen Summary:
+Reason:","Option 1: These headphones are a hit with my son, as he uses them daily to listen to his music without disturbing his parents.
+
+Option 2: These headphones are popular with my son, who enjoys using them to listen to music without bothering his parents.
+
+Chosen Summary: Option 1
+Reason: Option 1 provides a clear and concise summary of the review, highlighting the positive aspects of the headphones for the son while also considering the parents' perspective. It captures the key points of the review in a straightforward manner.",positive,0.113,89,2,2,1,5
+My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad,ReAct,"
+You are a helpful AI reviewer. Your task is to:
+- Think through the user feedback
+- Generate a short, polite summary
+
+Review: ""My son loves these headphones and uses them everyday he can listen to what he wants without making too much noise for his mom n’dad""
+
+Think: What is the core sentiment and message?
+Act: Write a summary in 1–2 lines.",Summary: The user's son enjoys using the headphones daily to listen to music without disturbing his parents.,negative,-0.25,17,2,2,2,6
+I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls,zero-shot,"Summarize this product review into one polite sentence:
+""I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls""","Overall, I have found this product to be excellent for taking calls in the office, as it connects easily to my laptop and allows me to move around freely.",positive,0.458,29,2,2,2,6
+I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls,few-shot,"
+Here are examples of product review summaries:
+Review: ""The sound quality is terrible and it broke after a week.""
+Summary: ""The user reported poor sound quality and a broken device.""
+Review: ""Great fit and comfort, with amazing bass response.""
+Summary: ""The reviewer praised the headphones for comfort and bass.""
+Now summarize this review:
+""I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls""
+Summary:","""The user found the headset great for office calls, with clear sound and easy connectivity.""",positive,0.433,15,2,2,2,6
+I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls,chain-of-thought,"
+Here is a product review:
+""I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls""
+
+Step 1: Identify whether the feedback is positive, negative, or neutral.
+Step 2: Find the main point of praise or complaint.
+Step 3: Write a professional summary in one line.
+
+Answer:",Positive feedback; Main point of praise is the clear sound quality and wireless functionality; The product is great for taking calls in the office with clear sound quality and easy connectivity.,positive,0.328,31,2,2,2,6
+I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls,tree-of-thoughts,"
+You're analyzing a product review. First, write two different summaries based on different viewpoints. Then choose the best one and explain why.
+
+Review: ""I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls""
+
+Option 1:
+Option 2:
+Chosen Summary:
+Reason:","Option 1: The reviewer purchased the product for office use and finds it great for taking calls. They have had no issues connecting to their laptop and their colleagues can hear them clearly. The wireless feature allows them to move around while on calls.
+
+Option 2: The reviewer is satisfied with their purchase of the product for office use. They have experienced no connectivity issues with their laptop and their colleagues have reported clear audio during calls. The wireless feature allows them to move around during calls.
+
+Chosen Summary: Option 1
+Reason: Option 1 provides a concise and clear summary of the reviewer's positive experience with the product. It highlights the key points of their satisfaction with the product's performance for office use, connectivity, audio quality, and wireless",positive,0.303,128,2,2,1,5
+I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls,ReAct,"
+You are a helpful AI reviewer. Your task is to:
+- Think through the user feedback
+- Generate a short, polite summary
+
+Review: ""I bought it mainly to use it when i go into the office to take calls and so far it’s been great! No problem connecting to my laptop and my colleagues can hear me clearly. Wireless allows me to pace as I take calls""
+
+Think: What is the core sentiment and message?
+Act: Write a summary in 1–2 lines.","Summary: The user is satisfied with the wireless headset for taking calls in the office, with no issues connecting to their laptop and clear audio for their colleagues, allowing them to move around during calls.",positive,0.3,35,2,2,2,6
+Perfect! Sound is excellent! Would purchase again for gifts!,zero-shot,"Summarize this product review into one polite sentence:
+""Perfect! Sound is excellent! Would purchase again for gifts!""",This product has excellent sound quality and I would definitely consider purchasing it again for gifts.,positive,0.467,16,2,2,2,6
+Perfect! Sound is excellent! Would purchase again for gifts!,few-shot,"
+Here are examples of product review summaries:
+Review: ""The sound quality is terrible and it broke after a week.""
+Summary: ""The user reported poor sound quality and a broken device.""
+Review: ""Great fit and comfort, with amazing bass response.""
+Summary: ""The reviewer praised the headphones for comfort and bass.""
+Now summarize this review:
+""Perfect! Sound is excellent! Would purchase again for gifts!""
+Summary:","""The reviewer described the sound as excellent and would consider purchasing again for gifts.""",positive,0.7,14,2,2,2,6
+Perfect! Sound is excellent! Would purchase again for gifts!,chain-of-thought,"
+Here is a product review:
+""Perfect! Sound is excellent! Would purchase again for gifts!""
+
+Step 1: Identify whether the feedback is positive, negative, or neutral.
+Step 2: Find the main point of praise or complaint.
+Step 3: Write a professional summary in one line.
+
+Answer:","Positive feedback; main point of praise is excellent sound quality; Summary: Highly satisfied with the product's excellent sound quality, would purchase again for gifts.",positive,0.528,24,2,2,2,6
+Perfect! Sound is excellent! Would purchase again for gifts!,tree-of-thoughts,"
+You're analyzing a product review. First, write two different summaries based on different viewpoints. Then choose the best one and explain why.
+
+Review: ""Perfect! Sound is excellent! Would purchase again for gifts!""
+
+Option 1:
+Option 2:
+Chosen Summary:
+Reason:","Option 1: The reviewer loved the product, praising its excellent sound quality and expressing a desire to purchase it again for gifts.
+
+Option 2: The reviewer was extremely satisfied with the product, highlighting its perfect performance and indicating a willingness to buy it as gifts in the future.
+
+Chosen Summary: Option 1 is the best summary because it effectively captures the positive aspects of the product highlighted in the review, such as the excellent sound quality and the reviewer's intention to purchase it for others as well. It is concise and straightforward, providing a clear picture of the reviewer's satisfaction with the product.",positive,0.493,103,2,2,1,5
+Perfect! Sound is excellent! Would purchase again for gifts!,ReAct,"
+You are a helpful AI reviewer. Your task is to:
+- Think through the user feedback
+- Generate a short, polite summary
+
+Review: ""Perfect! Sound is excellent! Would purchase again for gifts!""
+
+Think: What is the core sentiment and message?
+Act: Write a summary in 1–2 lines.",Summary: The user is highly satisfied with the product's sound quality and would consider buying it as a gift in the future.,positive,0.3,22,2,2,2,6
